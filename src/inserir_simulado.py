@@ -26,7 +26,7 @@ def inserir_acertos():
         if qtd_acertos == 'q':
             break
         
-        if not qtd_acertos.isdigit():
+        if not qtd_acertos.isdecimal():
             print(f"{red}Você deve digitar um número{reset}")
             continue
         
